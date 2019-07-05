@@ -32,14 +32,14 @@
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/Users/ehenry/dev/inform7/rhizome/Rhizome.inform/Source/story.ni</string>
-        <key>Line</key><integer>88</integer>
+        <key>Line</key><integer>110</integer>
         <key>Title</key><string>Part 4 - Locations</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>/Users/ehenry/dev/inform7/rhizome/Rhizome.inform/Source/story.ni</string>
-        <key>Line</key><integer>156</integer>
+        <key>Line</key><integer>178</integer>
         <key>Title</key><string>Part 5 - Some tables</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>

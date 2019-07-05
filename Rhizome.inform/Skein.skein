@@ -21,6 +21,8 @@ You can see a hand-painted sign here.
         <children><child nodeId="node-5955"></child>
             <child nodeId="node-5960"></child>
             <child nodeId="node-5995"></child>
+            <child nodeId="node-6011"></child>
+            <child nodeId="node-6009"></child>
             <child nodeId="node-5990"></child>
             <child nodeId="node-5952"></child>
         </children>
@@ -43,11 +45,12 @@ You can see a hand-painted sign here.
     </item>
     <item nodeId="node-5990">
         <command xml:space="preserve">score</command>
-        <result xml:space="preserve">You have so far scored 0 out of a possible 0, in 1 turn.
+        <result xml:space="preserve">You have so far scored 0 out of a possible 20, in 1 turn.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5991"></child>
+        <children><child nodeId="node-6002"></child>
+            <child nodeId="node-5991"></child>
         </children>
     </item>
     <item nodeId="node-5991">
@@ -95,6 +98,84 @@ You can see a hand-painted sign here.
  "Hints" will get you a small menu of extra hints, a little spoilery. 
  There are many more commands to try!
 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6002">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">Help is available about the following topics. Typing HELP followed by the name of a topic will give further information.
+
+ commands: A list of basic commands in the game
+ exits: Using the EXITS command
+ self: The point of view character
+ score: Things that make your score go up
+ bugs: How to report bugs
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6003"></child>
+        </children>
+    </item>
+    <item nodeId="node-6003">
+        <command xml:space="preserve">help commands</command>
+        <result xml:space="preserve">"i" - lists  your inventory (what you are carrying).  
+ "l" - "look". Shows the room description (again). 
+ "Exits" - List of possible exits from a room.
+ "n" -  convenient shorthand for "go north" 
+ "s", "e", "w", "u", "d" - south, east, west, up, down
+ "x" - examine something. "look at" also works.
+ "take" - You can also take things, open things, sit on things, and stand up. 
+ "Hints" will get you a small menu of extra hints, a little spoilery. 
+ There are many more commands to try!
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6004"></child>
+        </children>
+    </item>
+    <item nodeId="node-6004">
+        <command xml:space="preserve">help exits</command>
+        <result xml:space="preserve">Type "exits" if you want a list of possible exits. It's a little cheaty, but so much less frustrating.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6009">
+        <command xml:space="preserve">hints</command>
+        <result xml:space="preserve">Hints are available about the following topics. Typing HINT followed by the name of a topic will give further information.
+
+ start: Hints for the start of the game
+ nettles: Why do the nettles keep stinging me?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6010"></child>
+        </children>
+    </item>
+    <item nodeId="node-6010">
+        <command xml:space="preserve">hint start</command>
+        <result xml:space="preserve">I only understood you as far as wanting to hint.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6011">
+        <command xml:space="preserve">hint</command>
+        <result xml:space="preserve">Hints are available about the following topics. Typing HINT followed by the name of a topic will give further information.
+
+ start: Hints for the start of the game
+ nettles: Why do the nettles keep stinging me?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6012"></child>
+        </children>
+    </item>
+    <item nodeId="node-6012">
+        <command xml:space="preserve">hint start</command>
+        <result xml:space="preserve">Wander around, look at things, get a sense of how to get to all the game locations you can. There are small puzzles to solve which will increase your score. At the top of the game window you can see how many locations you've been to out of the total locations in the game.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -166,16 +247,115 @@ You can see a pair of heavy work gloves here.
         <command xml:space="preserve">help</command>
         <result xml:space="preserve">Help is available about the following topics. Typing HELP followed by the name of a topic will give further information.
 
- self: The point of view character
  commands: A list of basic commands in the game
  exits: Using the EXITS command
+ self: The point of view character
  score: Things that make your score go up
- bugs: How to report bugs
+ contribute: How to contribute
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-5961"></child>
+            <child nodeId="node-6006"></child>
+            <child nodeId="node-6014"></child>
         </children>
+    </item>
+    <item nodeId="node-6014">
+        <command xml:space="preserve">help score</command>
+        <result xml:space="preserve">10 points for each connection to the land you establish.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6015"></child>
+        </children>
+    </item>
+    <item nodeId="node-6015">
+        <command xml:space="preserve">help commands</command>
+        <result xml:space="preserve">"i" - lists  your inventory (what you are carrying).  
+ "l" - "look". Shows the room description (again). 
+ "n" -  convenient shorthand for "go north" 
+ "s", "e", "w", "u", "d" - south, east, west, up, down
+ "x" - examine something. "look at" also works.
+ "take" - You can also take things, open things, sit on things, and stand up. 
+ "Hints" will get you a small menu of extra hints, a little spoilery. 
+ There are many more commands to try!
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6016"></child>
+        </children>
+    </item>
+    <item nodeId="node-6016">
+        <command xml:space="preserve">help self</command>
+        <result xml:space="preserve">Keep in mind you can type "examine self" or "x self". This might be useful or informative, sometimes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6017"></child>
+        </children>
+    </item>
+    <item nodeId="node-6017">
+        <command xml:space="preserve">help contribute</command>
+        <result xml:space="preserve">Please report anything you think is wrong, or could use improvement. Or, maybe you have an idea for adding to the game. Let me know about any of these at https://github.com/lizzard/rhizome/issues. You can also email lizhenry@gmail.com with "RHIZOME" in the subject line if you prefer email. Thanks! - Lizzard
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6018"></child>
+        </children>
+    </item>
+    <item nodeId="node-6018">
+        <command xml:space="preserve">hint</command>
+        <result xml:space="preserve">Hints are available about the following topics. Typing HINT followed by the name of a topic will give further information.
+
+ start: Hints for the start of the game
+ nettles: Why do the nettles keep stinging me?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6019"></child>
+        </children>
+    </item>
+    <item nodeId="node-6019">
+        <command xml:space="preserve">hint nettles</command>
+        <result xml:space="preserve">Maybe you need to wear something on your hands to protect them from contact urticaria!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6006">
+        <command xml:space="preserve">help exits</command>
+        <result xml:space="preserve">Type "exits" if you want a list of possible exits. It's a little cheaty, but so much less frustrating. It's a good habit to type "exits" in every new location to orient yourself. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6007"></child>
+        </children>
+    </item>
+    <item nodeId="node-6007">
+        <command xml:space="preserve">help commands</command>
+        <result xml:space="preserve">"i" - lists  your inventory (what you are carrying).  
+ "l" - "look". Shows the room description (again). 
+ "Exits" - List of possible exits from a room.
+ "n" -  convenient shorthand for "go north" 
+ "s", "e", "w", "u", "d" - south, east, west, up, down
+ "x" - examine something. "look at" also works.
+ "take" - You can also take things, open things, sit on things, and stand up. 
+ "Hints" will get you a small menu of extra hints, a little spoilery. 
+ There are many more commands to try!
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6008"></child>
+        </children>
+    </item>
+    <item nodeId="node-6008">
+        <command xml:space="preserve">hints</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-5961">
         <command xml:space="preserve">help commands</command>

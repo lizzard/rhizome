@@ -72,17 +72,39 @@ Table of Standard Help
 topic	title	summary	explanation
 "commands"	"commands"	"A list of basic commands in the game"	"'i' - lists  your inventory (what you are carrying).  [line break]
 'l' - 'look'. Shows the room description (again). [line break]
-'Exits' - List of possible exits from a room.[line break]
 'n' -  convenient shorthand for 'go north' [line break]
 's', 'e', 'w', 'u', 'd' - south, east, west, up, down[line break]
 'x' - examine something. 'look at' also works.[line break]
 'take' - You can also take things, open things, sit on things, and stand up. [line break]
 'Hints' will get you a small menu of extra hints, a little spoilery. [line break]
 There are many more commands to try![line break]"
-"exits"	"exits"	"Using the EXITS command"	"Type 'exits' if you want a list of possible exits. It's a little cheaty, but so much less frustrating."
+"exits"	"exits"	"Using the EXITS command"	"Type 'exits' if you want a list of possible exits. It's a little cheaty, but so much less frustrating. It's a good habit to type 'exits' in every new location to orient yourself. "
 "self"	"self"	"The point of view character"	"Keep in mind you can type 'examine self' or 'x self'. This might be useful or informative, sometimes."
 "score"	"score"	"Things that make your score go up"	"10 points for each connection to the land you establish."
-"bugs"	"bugs"	"How to report bugs"	"Please report anything you think is wrong, or could use improvement, at https://github.com/lizzard/rhizome/issues. You can also email lizhenry@gmail.com with 'RHIZOME BUG' in the subject line."
+"contribute"	"contribute"	"How to contribute"	"Please report anything you think is wrong, or could use improvement. Or, maybe you have an idea for adding to the game. Let me know about any of these at https://github.com/lizzard/rhizome/issues. You can also email lizhenry@gmail.com with 'RHIZOME' in the subject line if you prefer email. Thanks! - Lizzard"
+
+Understand "hints" or "hint" as summoning hints. Summoning hints is an action applying to nothing. 
+
+Carry out summoning hints:
+	say "Hints are available about the following topics. Typing HINT followed by the name of a topic will give further information.[paragraph break]";
+	repeat through the Table of Hints:
+		say " [title entry]: [summary entry][line break]". 
+		
+Understand "hint [text]" or "hint about [text]" as getting hints about. 
+
+Getting hints about is an action applying to one topic. 
+
+Carry out getting hints about:
+	if the topic understood is a topic listed in the Table of Hints:
+		say "[explanation entry][paragraph break]";
+	otherwise:
+		say "You're out of ideas." 
+
+
+Table of Hints
+topic	title	summary	explanation
+"start"	"start"	"Hints for the start of the game"	"Wander around, look at things, get a sense of how to get to all the game locations you can. [paragraph break]There are small puzzles to solve which will increase your score. At the top of the game window you can see how many locations you've been to out of the total locations in the game. [paragraph break]As you-the-point-of-view-character wander around this playable map, you should find opportunities to connect to a deeper sense of stewardship of the land and a relationship with it. And, as you-the-person play in this simplified imaginary landscape, you may become more familiar with the real landscape we're inhabiting on the Farm. "
+"nettles"	"nettles"	"Why do the nettles keep stinging me?"	"Maybe you need to wear something on your hands to protect them!"
 
 
 Part 4 - Locations

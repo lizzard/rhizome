@@ -3,43 +3,43 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6M62</string>
     <key>0</key><dict>
-        <key>Filename</key><string>/Users/ehenry/dev/inform7/Rhizome.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/ehenry/dev/inform7/rhizome/Rhizome.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>"Rhizome" by lizzard</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>/Users/ehenry/dev/inform7/Rhizome.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/ehenry/dev/inform7/rhizome/Rhizome.inform/Source/story.ni</string>
         <key>Line</key><integer>3</integer>
         <key>Title</key><string>Part 1 - Setup</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>/Users/ehenry/dev/inform7/Rhizome.inform/Source/story.ni</string>
-        <key>Line</key><integer>33</integer>
+        <key>Filename</key><string>/Users/ehenry/dev/inform7/rhizome/Rhizome.inform/Source/story.ni</string>
+        <key>Line</key><integer>34</integer>
         <key>Title</key><string>Part 2 - Starting location</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>/Users/ehenry/dev/inform7/Rhizome.inform/Source/story.ni</string>
-        <key>Line</key><integer>44</integer>
+        <key>Filename</key><string>/Users/ehenry/dev/inform7/rhizome/Rhizome.inform/Source/story.ni</string>
+        <key>Line</key><integer>45</integer>
         <key>Title</key><string>Part 3 - Hint system</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>/Users/ehenry/dev/inform7/Rhizome.inform/Source/story.ni</string>
-        <key>Line</key><integer>87</integer>
+        <key>Filename</key><string>/Users/ehenry/dev/inform7/rhizome/Rhizome.inform/Source/story.ni</string>
+        <key>Line</key><integer>88</integer>
         <key>Title</key><string>Part 4 - Locations</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
-        <key>Filename</key><string>/Users/ehenry/dev/inform7/Rhizome.inform/Source/story.ni</string>
-        <key>Line</key><integer>155</integer>
+        <key>Filename</key><string>/Users/ehenry/dev/inform7/rhizome/Rhizome.inform/Source/story.ni</string>
+        <key>Line</key><integer>156</integer>
         <key>Title</key><string>Part 5 - Some tables</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>

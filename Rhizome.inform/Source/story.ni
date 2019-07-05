@@ -5,6 +5,7 @@ Part 1 - Setup
 Include Basic Screen Effects by Emily Short.
 
 Use scoring.
+The maximum score is 20.
 
 Rule for constructing the status line:
 	fill status bar with Table of Fancy Status; 
@@ -36,7 +37,7 @@ Gate to the Mushroom Farm is a room. The description is "You have entered the Mu
 
 The little house is scenery in Gate to the Mushroom Farm. The description of the little house is "A well loved looking house full of life and business. You leave them in privacy."
 
-A hand-painted sign is an object in Gate to the Mushroom Farm. The description of a hand-painted sign is "Type 'help' for some basic commands you can try."
+A hand-painted sign is an object in Gate to the Mushroom Farm. The description of a hand-painted sign is "Welcome! Type 'help' for some basic commands you can try."
 
 
 
@@ -69,17 +70,17 @@ Carry out summoning help:
 
 Table of Standard Help
 topic	title	summary	explanation
-"self"	"self"	"The point of view character"	"Keep in mind you can type 'examine self' or 'x self'. This might be useful or informative, sometimes."
-"commands"	"commands"	"A list of basic commands in the game"	"Type 'i' to look at your inventory (what you are carrying).  [line break]
-'Look' will show you a room description (again). [line break]
-'Exits' will show you a list of possible exits from a room.[line break]
-You can 'go' in all 8 directions (north, northeast, etc) as well as up and down. [line break]
-'n' is a convenient shorthand for 'go north' [line break]
-You can also take things, open things, sit on things, and stand up. [line break]
-'examine' ('x') or 'look at' will let you examine an object. Or, sometimes, details in a room description.[line break]
+"commands"	"commands"	"A list of basic commands in the game"	"'i' - lists  your inventory (what you are carrying).  [line break]
+'l' - 'look'. Shows the room description (again). [line break]
+'Exits' - List of possible exits from a room.[line break]
+'n' -  convenient shorthand for 'go north' [line break]
+'s', 'e', 'w', 'u', 'd' - south, east, west, up, down[line break]
+'x' - examine something. 'look at' also works.[line break]
+'take' - You can also take things, open things, sit on things, and stand up. [line break]
 'Hints' will get you a small menu of extra hints, a little spoilery. [line break]
 There are many more commands to try![line break]"
 "exits"	"exits"	"Using the EXITS command"	"Type 'exits' if you want a list of possible exits. It's a little cheaty, but so much less frustrating."
+"self"	"self"	"The point of view character"	"Keep in mind you can type 'examine self' or 'x self'. This might be useful or informative, sometimes."
 "score"	"score"	"Things that make your score go up"	"10 points for each connection to the land you establish."
 "bugs"	"bugs"	"How to report bugs"	"Please report anything you think is wrong, or could use improvement, at https://github.com/lizzard/rhizome/issues. You can also email lizhenry@gmail.com with 'RHIZOME BUG' in the subject line."
 

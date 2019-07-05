@@ -9,7 +9,7 @@
 
 Rhizome
 An Interactive Fiction by lizzard
-Release 1 / Serial number 190704 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190705 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Gate to the Mushroom Farm
 You have entered the Mushroom Farm by the front gate. The road leads east past a little house.
@@ -20,6 +20,8 @@ You can see a hand-painted sign here.
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-5955"></child>
             <child nodeId="node-5960"></child>
+            <child nodeId="node-5995"></child>
+            <child nodeId="node-5990"></child>
             <child nodeId="node-5952"></child>
         </children>
     </item>
@@ -35,6 +37,127 @@ You can see a hand-painted sign here.
     <item nodeId="node-5954">
         <command xml:space="preserve">exits</command>
         <result xml:space="preserve">You can go  from here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5990">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have so far scored 0 out of a possible 0, in 1 turn.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5991"></child>
+        </children>
+    </item>
+    <item nodeId="node-5991">
+        <command xml:space="preserve">rea sign</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5992"></child>
+        </children>
+    </item>
+    <item nodeId="node-5992">
+        <command xml:space="preserve">read sign</command>
+        <result xml:space="preserve">Type "help" for some basic commands you can try.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5993"></child>
+        </children>
+    </item>
+    <item nodeId="node-5993">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">Help is available about the following topics. Typing HELP followed by the name of a topic will give further information.
+
+ self: The point of view character
+ commands: A list of basic commands in the game
+ exits: Using the EXITS command
+ score: Things that make your score go up
+ bugs: How to report bugs
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5994"></child>
+        </children>
+    </item>
+    <item nodeId="node-5994">
+        <command xml:space="preserve">help commands</command>
+        <result xml:space="preserve">Type "i" to look at your inventory (what you are carrying).  
+ "Look" will show you a room description (again). 
+ "Exits" will show you a list of possible exits from a room.
+ You can "go" in all 8 directions (north, northeast, etc) as well as up and down. 
+ "n" is a convenient shorthand for "go north" 
+ You can also take things, open things, sit on things, and stand up. 
+ "examine" ("x") or "look at" will let you examine an object. Or, sometimes, details in a room description.
+ "Hints" will get you a small menu of extra hints, a little spoilery. 
+ There are many more commands to try!
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5995">
+        <command xml:space="preserve">help sign</command>
+        <result xml:space="preserve">You're out of ideas.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5996"></child>
+        </children>
+    </item>
+    <item nodeId="node-5996">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">Help is available about the following topics. Typing HELP followed by the name of a topic will give further information.
+
+ commands: A list of basic commands in the game
+ exits: Using the EXITS command
+ self: The point of view character
+ score: Things that make your score go up
+ bugs: How to report bugs
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5997"></child>
+        </children>
+    </item>
+    <item nodeId="node-5997">
+        <command xml:space="preserve">help commands</command>
+        <result xml:space="preserve">"i" - lists  your inventory (what you are carrying).  
+ "Look" or "l" - shows the room description (again). 
+ "Exits" - shows a list of possible exits from a room.
+ (It's good to type this in every location, routinely.)
+ "n" -  convenient shorthand for "go north" 
+ "s", "e", "w", "u", "d" - south, east, west, up, down
+ "x" - examine something
+ "take" - You can also take things, open things, sit on things, and stand up. 
+ "Hints" will get you a small menu of extra hints, a little spoilery. 
+ There are many more commands to try!
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5998"></child>
+        </children>
+    </item>
+    <item nodeId="node-5998">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Camp Road
+This paved road leads from the western gate to higher ground, to the east. A wide road continues south to the main level of the Farm. A smaller gravel road winds north over a tiny creek, towards huge derelict warehouses. 
+
+You can see a pair of heavy work gloves here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5999"></child>
+        </children>
+    </item>
+    <item nodeId="node-5999">
+        <command xml:space="preserve">t</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-5949">
+    <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
+    <item nodeId="node-5949">
+        <command xml:space="preserve">Rhizome</command>
+        <result xml:space="preserve">
+
+
+Rhizome
+An Interactive Fiction by lizzard
+Release 1 / Serial number 190704 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Gate to the Mushroom Farm
+You have entered the Mushroom Farm by the front gate. The road leads east past a little house.
+
+You can see a hand-painted sign here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5955"></child>
+            <child nodeId="node-5960"></child>
+            <child nodeId="node-5952"></child>
+        </children>
+    </item>
+    <item nodeId="node-5952">
+        <command xml:space="preserve">x house</command>
+        <result xml:space="preserve">A well loved looking house full of life and business. You leave them in privacy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5954"></child>
+        </children>
+    </item>
+    <item nodeId="node-5954">
+        <command xml:space="preserve">exits</command>
+        <result xml:space="preserve">You can go  from here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5960">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">Help is available about the following topics. Typing HELP followed by the name of a topic will give further information.
+
+ self: The point of view character
+ commands: A list of basic commands in the game
+ exits: Using the EXITS command
+ score: Things that make your score go up
+ bugs: How to report bugs
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5961"></child>
+        </children>
+    </item>
+    <item nodeId="node-5961">
+        <command xml:space="preserve">help commands</command>
+        <result xml:space="preserve">Type "i" to look at your inventory (what you are carrying).  
+ "Look" will show you a room description (again). 
+ "Exits" will show you a list of possible exits from a room.
+ You can "go" in all 8 directions (north, northeast, etc) as well as up and down. 
+ "n" is a convenient shorthand for "go north" 
+ You can also take things, open things, sit on things, and stand up. 
+ "examine" ("x") or "look at" will let you examine an object. Or, sometimes, details in a room description.
+ "Hints" will get you a small menu of extra hints, a little spoilery. 
+ There are many more commands to try!
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5962"></child>
+        </children>
+    </item>
+    <item nodeId="node-5962">
+        <command xml:space="preserve">help self</command>
+        <result xml:space="preserve">Keep in mind you can type "examine self" or "x self". This might be useful or informative, sometimes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5963"></child>
+        </children>
+    </item>
+    <item nodeId="node-5963">
+        <command xml:space="preserve">help exits</command>
+        <result xml:space="preserve">Type "exits" if you want a list of possible exits. It's a little cheaty, but so much less frustrating.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5964"></child>
+        </children>
+    </item>
+    <item nodeId="node-5964">
+        <command xml:space="preserve">help score</command>
+        <result xml:space="preserve">One point for each new room visited. 5 points for each connection to the land you establish.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5955">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Camp Road
+This paved road leads from the western gate to higher ground, to the east. A smaller gravel road winds north over a tiny creek, towards huge derelict warehouses.
+
+You can see a pair of heavy work gloves here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5956"></child>
+            <child nodeId="node-5966"></child>
+        </children>
+    </item>
+    <item nodeId="node-5966">
+        <command xml:space="preserve">take gloves</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5978"></child>
+            <child nodeId="node-5971"></child>
+            <child nodeId="node-5967"></child>
+        </children>
+    </item>
+    <item nodeId="node-5967">
+        <command xml:space="preserve">x gloves</command>
+        <result xml:space="preserve">A pair of thick work gloves. They would fit you perfectly!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5968"></child>
+        </children>
+    </item>
+    <item nodeId="node-5968">
+        <command xml:space="preserve">wear gloves</command>
+        <result xml:space="preserve">You can't wear that!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5971">
+        <command xml:space="preserve">wear gloves</command>
+        <result xml:space="preserve">You put on the pair of heavy work gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5972"></child>
+        </children>
+    </item>
+    <item nodeId="node-5972">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a pair of heavy work gloves (being worn)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5973"></child>
+        </children>
+    </item>
+    <item nodeId="node-5973">
+        <command xml:space="preserve">remove gloves</command>
+        <result xml:space="preserve">You take off the pair of heavy work gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5974"></child>
+        </children>
+    </item>
+    <item nodeId="node-5974">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Camp Road
+This paved road leads from the western gate to higher ground, to the east. A smaller gravel road winds north over a tiny creek, towards huge derelict warehouses.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5975"></child>
+        </children>
+    </item>
+    <item nodeId="node-5975">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5978">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Overgrown Creek
+You cross the bridge over a tiny creek, overgrown with tall plants. Only a trickle of water is visible below.
+
+You can see some tall hemlock, some lacy fennel and some stinging nettles here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5979"></child>
+        </children>
+    </item>
+    <item nodeId="node-5979">
+        <command xml:space="preserve">take nettles</command>
+        <result xml:space="preserve">Ouch! You get stung painfully by the nettles, all over your hands!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5980"></child>
+            <child nodeId="node-5988"></child>
+        </children>
+    </item>
+    <item nodeId="node-5988">
+        <command xml:space="preserve">wear gloves</command>
+        <result xml:space="preserve">You put on the pair of heavy work gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5989"></child>
+        </children>
+    </item>
+    <item nodeId="node-5989">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">tall hemlock: Taken.
+lacy fennel: Taken.
+stinging nettles: [Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5980">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a pair of heavy work gloves
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5981"></child>
+        </children>
+    </item>
+    <item nodeId="node-5981">
+        <command xml:space="preserve">wear gloves</command>
+        <result xml:space="preserve">You put on the pair of heavy work gloves.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5982"></child>
+        </children>
+    </item>
+    <item nodeId="node-5982">
+        <command xml:space="preserve">take nettles</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5983"></child>
+        </children>
+    </item>
+    <item nodeId="node-5983">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  some stinging nettles
+  a pair of heavy work gloves (being worn)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5956">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Overgrown Creek
+You cross the bridge over a tiny creek, overgrown with tall plants. Only a trickle of water is visible below.
+
+You can see some tall hemlock, some lacy fennel and some stinging nettles here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5957"></child>
+        </children>
+    </item>
+    <item nodeId="node-5957">
+        <command xml:space="preserve">take hemlock</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5958"></child>
+        </children>
+    </item>
+    <item nodeId="node-5958">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  some tall hemlock
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5959"></child>
+        </children>
+    </item>
+    <item nodeId="node-5959">
+        <command xml:space="preserve">drop hemlock</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
